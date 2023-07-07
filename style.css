@@ -1,0 +1,180 @@
+.block-reveal--active .block-reveal__block {
+    animation: block-rev-block .8s;
+    animation-timing-function: cubic-bezier(.65, .05, .36, 1);
+}
+
+.block-reveal__block {
+    content: "";
+    height: 100%;
+
+    transform: translateX(calc(100% + 1px));
+    width: 100%;
+    will-change: transform;
+    z-index: 1;
+}
+
+.paragraph{
+   color: blue;
+   position: relative;
+   top: 15rem;
+   width: 100%;
+   margin-bottom: 15rem;
+}
+
+
+
+h3 {
+    top: 10rem;
+    position: relative;
+}
+
+.tx {
+    position: relative;
+    top: 15rem;
+
+}
+
+.purple {
+    color: #5918df;
+    font-weight: bolder;
+}
+
+.str {
+    background-color: black;
+    min-height: 100vh;
+}
+
+body {
+    color: #f9f9f9;
+    background-color: black;
+    font-display: auto;
+    font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+    font-size: 24px;
+    font-weight: 400;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.let {
+    position: absolute;
+    top: 10rem;
+}
+
+
+footer {
+    background-color: #0e0d10;
+    box-shadow: 0 0 76px 0 rgba(10, 7, 22, .004);
+    overflow: hidden;
+}
+
+
+#about {
+    background-color: black;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+#about .string {
+    color: #24e33a;
+}
+
+#about .methods {
+    color: #5918df;
+    display: inline;
+}
+
+#about .scope {
+    color: #e3244c;
+    display: inline;
+}
+
+#about .propname {
+    color: #eeff31;
+}
+
+#about .comment {
+    color: #78707e;
+    display: inline;
+}
+
+#about .dot {
+    color: #3b3553;
+    display: inline;
+}
+
+.r1 {
+    width: 2rem;
+}
+
+
+
+.ct-text {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.fm-text {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+}
+
+.gm1 {
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.gm2 {
+    width: 4rem;
+    
+}
+
+.gm3 {
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.gm4 {
+    width: 4rem;
+   
+}
+
+.at {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.st-text {
+    font-size: 3rem;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .str{
+        min-height: 150vh;
+    }
+    .paragraph{
+        top:12rem;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width:800px){
+    .str{
+        min-height: 100vh;
+    }
+}
+
+.wk-text{
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 10rem;
+}
